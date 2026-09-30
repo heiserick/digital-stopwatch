@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    background: #1e293b;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #38bdf8;
+}
+
+#display {
+    font-size: 3rem;
+    font-family: monospace;
+    margin-bottom: 25px;
+    background: #0f172a;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #334155;
+}
+
+.buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+#startBtn { background: #22c55e; color: white; }
+#startBtn:hover { background: #16a34a; }
+
+#pauseBtn { background: #eab308; color: white; }
+#pauseBtn:hover { background: #ca8a04; }
+
+#resetBtn { background: #ef4444; color: white; }
+#resetBtn:hover { background: #dc2626; }
